@@ -1,25 +1,26 @@
 
 import './App.css'
 import Hero from './Components/Hero'
-//import Demo from './Components/Demo';
+import Demo from './Components/Demo';
 
 function App() {
  
 
   return (
- <main  className="main">
-<div className="gradient">
 
-<div className="app">
+  
+ <main>
+<div className="main">
+<div className="gradient"/>
+</div>
+
+<div className='app'>
 <Hero/>
-
+<Demo/>
 </div>
-
-
-</div>
-
 
 </main>
+
   )
 }
 
